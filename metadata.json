@@ -1,0 +1,6 @@
+{
+  "name": "CV-AV Saint Jean-Paul II - Angré 8e Tranche",
+  "description": "Plateforme communautaire officielle et moderne du mouvement des Cœurs Vaillants et Âmes Vaillantes de la paroisse Saint Jean-Paul II (Angré 8ème Tranche). Inscriptions en ligne, actualités paroissiales, carnet virtuel, et statistiques d'administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,123 @@
+{
+  "entities": {
+    "Member": {
+      "title": "Member",
+      "description": "Represents a CV-AV registered child member of Saint Jean-Paul II Section.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "nom": { "type": "string" },
+        "prenoms": { "type": "string" },
+        "genre": { "type": "string" },
+        "dateNaissance": { "type": "string" },
+        "lieuNaissance": { "type": "string" },
+        "lieuHabitation": { "type": "string" },
+        "anneeCatechese": { "type": "string" },
+        "baptise": { "type": "boolean" },
+        "confirme": { "type": "boolean" },
+        "maladieParticuliere": { "type": "string" },
+        "groupeSanguin": { "type": "string" },
+        "allergie": { "type": "string" },
+        "parentType": { "type": "string" },
+        "parentNom": { "type": "string" },
+        "parentPrenoms": { "type": "string" },
+        "parentHabitation": { "type": "string" },
+        "parentProfession": { "type": "string" },
+        "parentTelephone": { "type": "string" },
+        "parentWhatsApp": { "type": "string" },
+        "dateAdhesion": { "type": "string" },
+        "grade": { "type": "string" },
+        "anneeAdhesion": { "type": "string" },
+        "section": { "type": "string" },
+        "doyenne": { "type": "string" },
+        "numeroUrgence": { "type": "string" },
+        "status": { "type": "string" },
+        "photoUrl": { "type": "string" }
+      },
+      "required": ["id", "nom", "prenoms", "genre", "dateNaissance", "parentTelephone", "grade", "status"]
+    },
+    "NewsArticle": {
+      "title": "NewsArticle",
+      "description": "An announcement or news article regarding the SJP2 sectional life and camp reports.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "summary": { "type": "string" },
+        "content": { "type": "string" },
+        "category": { "type": "string" },
+        "date": { "type": "string" },
+        "photoUrl": { "type": "string" },
+        "videoUrl": { "type": "string" },
+        "pdfUrl": { "type": "string" },
+        "author": { "type": "string" }
+      },
+      "required": ["id", "title", "summary", "category", "date", "photoUrl", "author"]
+    },
+    "ParishEvent": {
+      "title": "ParishEvent",
+      "description": "An event on the liturgical calendars or diocesan program.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "date": { "type": "string" },
+        "description": { "type": "string" },
+        "year": { "type": "number" }
+      },
+      "required": ["id", "title", "category", "date", "description", "year"]
+    },
+    "GalleryItem": {
+      "title": "GalleryItem",
+      "description": "An image item displayed on the perspective memory carousel on SJP2 portal.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "url": { "type": "string" },
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "year": { "type": "string" }
+      },
+      "required": ["id", "url", "title", "category", "year"]
+    },
+    "Activity": {
+      "title": "Activity",
+      "description": "An official CV-AV agenda activity with instant digital registration for children.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "date": { "type": "string" },
+        "location": { "type": "string" },
+        "isOpen": { "type": "boolean" },
+        "maxParticipants": { "type": "number" },
+        "participantsCount": { "type": "number" }
+      },
+      "required": ["id", "title", "description", "date", "location", "isOpen", "maxParticipants", "participantsCount"]
+    }
+  },
+  "firestore": {
+    "cvav_members": {
+      "schema": "Member",
+      "description": "Members collection tracking registered CV-AV kids."
+    },
+    "cvav_news": {
+      "schema": "NewsArticle",
+      "description": "News articles collection."
+    },
+    "cvav_parish": {
+      "schema": "ParishEvent",
+      "description": "Parish calendar events."
+    },
+    "cvav_gallery": {
+      "schema": "GalleryItem",
+      "description": "Liturgical memory carousel items."
+    },
+    "cvav_activities": {
+      "schema": "Activity",
+      "description": "CV-AV activities with child participant subscriptions."
+    }
+  }
+}
