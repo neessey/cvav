@@ -856,7 +856,7 @@ Ici à Jean Paul II, la vie se construit ensemble, comme une famille.
           <div className="mt-4 space-y-2 text-sm">
 
             <p className="font-medium">
-              +225 07 48 92 10 32
+              +225 07 57 70 20 43
             </p>
 
             <p className="text-white/50">
@@ -881,11 +881,11 @@ Ici à Jean Paul II, la vie se construit ensemble, comme une famille.
       </p>
 
       <h1 className="font-serif italic text-5xl md:text-7xl leading-none">
-        Voir.<br />
-        Juger.<br />
-        Agir.<br />
-        Evaluer.<br />
-        Célébrer.
+        Voir<br />
+        Juger<br />
+        Agir<br />
+        Evaluer<br />
+        Célébrer
       </h1>
 
     </div>
