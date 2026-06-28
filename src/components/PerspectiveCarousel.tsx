@@ -16,27 +16,27 @@ const BASE_CARDS: CardItem[] = [
   },
   {
     type: "image",
-    url: "/assets/home2.jpeg",
+    url: "/assets/home2.JPEG",
    
   },
   {
     type: "image",
-    url: "/assets/home3.jpg",
+    url: "/assets/home3.JPG",
    
   },
   {
     type: "image",
-    url: "/assets/home4.jpg",
+    url: "/assets/home4.JPG",
     
   },
   {
     type: "image",
-    url: "/assets/home5.jpg",
+    url: "/assets/home5.JPG",
     
   },
   {
     type: "image",
-    url: "/assets/home6.png",
+    url: "/assets/home6.PNG",
     
   }
 ];
