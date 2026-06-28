@@ -587,7 +587,7 @@ TOUS UNIS TOUS FRERE
                     </h2>
                     
                     <p className="text-black/70 font-sans text-xs sm:text-sm md:text-base max-w-3xl mx-auto leading-relaxed pt-2 font-medium">
-Ici a Jean Paul II, la vie se construit ensemble, comme une famille.  
+Ici à Jean Paul II, la vie se construit ensemble, comme une famille.  
   On apprend à se connaître, à se respecter et à grandir dans la fraternité.  
   C’est ce milieu de vie qui forge les valeurs, le caractère et le sens du partage.       
                </p>

@@ -239,7 +239,7 @@ const handleProceedToPayment = async () => {
             <p className="max-w-3xl text-black/70 text-lg leading-relaxed">
               Planifiez vos moments de répit. Inscrivez vos enfants aux sorties,
               camps, rassemblements diocésains et activités de formation.
-              Effectuez vos paiements Mobile Money en toute sécurité via Genius Pay.
+              Effectuez vos paiements Mobile Money en toute sécurité .
             </p>
           </div>
         </div>
@@ -609,9 +609,6 @@ const handleProceedToPayment = async () => {
                             className="w-full pl-10 pr-4 py-2.5 text-sm bg-gray-50 border border-gray-200 rounded-xl focus:bg-white focus:outline-hidden font-mono font-bold"
                           />
                         </div>
-                        <p className="text-[10px] text-gray-400 leading-normal">
-                          Vous serez redirigé vers la plateforme sécurisée Genius Pay pour finaliser le paiement de {registeringActivity.price} FCFA.
-                        </p>
                       </div>
                     )}
                   </div>

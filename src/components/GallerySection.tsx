@@ -218,7 +218,7 @@ export default function GallerySection({ items, onUploadItem, isAdminMode = fals
         <div className="flex items-center gap-2">
           <div className="flex items-center gap-1 text-xs text-gray-500 font-mono font-medium">
             <Calendar className="w-3.5 h-3.5 text-gray-400" />
-            <span>Millésime :</span>
+            <span> :</span>
           </div>
           <div className="flex gap-1 bg-[#FAF9F6] p-1 border border-gray-200/50 rounded-xl">
             {years.map(yr => (
