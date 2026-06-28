@@ -6,8 +6,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
-  Users, Calendar, Award, Newspaper, Image, Layers, HelpCircle, ArrowRight, BookOpen, Clock, 
-  MapPin, CheckCircle, Shield, UserPlus, Flame, Heart, AlertCircle, Phone, Menu, X, ArrowUpRight,
+  Cross, Menu, X, ArrowUpRight,
   Lock
 } from "lucide-react";
 import { 
@@ -573,7 +572,7 @@ const handleDeleteGalleryItem = async (id: string) => {
                   {/* DISPLAY TITLE & COPYWRITING COMPONENT IN THE STYLE OF FELIX-NIETO.COM */}
                   <div className="text-center space-y-6 max-w-5xl mx-auto px-4 relative z-10">
                     <span className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-black/[0.03] text-black text-[9px] font-mono tracking-widest uppercase font-bold border border-black/5">
-                      <Flame className="w-3.5 h-3.5 text-red-600 animate-pulse" />
+                      <Cross className="w-3.5 h-3.5 text-red-600 animate-pulse" />
                      Paroisse Saint Jean Paul II
                     </span>
                     
@@ -894,7 +893,7 @@ Ici à Jean Paul II, la vie se construit ensemble, comme une famille.
     <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-white/30">
 
       <p>
-        © 2026 Cœurs Vaillants & Âmes Vaillantes • Saint Jean-Paul II
+        © 2026 Cœurs Vaillants  Âmes Vaillantes • Saint Jean-Paul II
       </p>
 
       <p>
